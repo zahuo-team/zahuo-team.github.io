@@ -817,13 +817,15 @@ input:-webkit-autofill:focus {
 }
 
 .footer-menu {
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     list-style-type:none;
+    text-align: center;
+    width: 100%;
     padding-left: 0;
 }
 
 .footer-menu li {
+    display: inline-block;
     margin: 0 10px;
 }
 
