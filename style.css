@@ -394,6 +394,10 @@ input:-webkit-autofill:focus {
     margin-top: 30px;
 }
 
+.header-text a {
+    margin-right:10px;
+}
+
 .screen-slider .item {
     background: url('images/mobile2.png') no-repeat scroll center center / auto 100%;
     padding: 56px 22px;
@@ -988,4 +992,11 @@ preloader
         transform: perspective(140px) rotateY(180deg);
         opacity: 0;
     }
+}
+
+/*-----------
+privacy-page
+------------*/
+.privacy-page .mainmenu-area {
+    background: #46AD46;
 }
