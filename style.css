@@ -273,15 +273,16 @@ input:-webkit-autofill:focus {
 }
 
 .box .box-icon {
-    height: 160px;
-    margin-bottom: 20px;
+    height: 70px;
+    margin-bottom: 25px;
 }
 
 .box .box-icon img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(60%);
+    filter: grayscale(60%);
     -webkit-transition: 0.3s;
     transition: 0.3s;
+    max-width: 70px;
 }
 
 .box:hover .box-icon img {
