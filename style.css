@@ -220,29 +220,7 @@ input:-webkit-autofill:focus {
 *Page title
 **/
 
-.page-title {
-    margin-bottom: 60px;
-}
 
-.page-title h2 {
-    text-transform: uppercase;
-    position: relative;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-}
-
-.page-title h2:after {
-    content: "\e675";
-    font-family: 'themify';
-    position: absolute;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-    bottom: -10px;
-    width: 15px;
-    height: 15px;
-    font-size: 14px;
-}
 
 /**
 *Box-style
@@ -1000,4 +978,15 @@ privacy-page
 ------------*/
 .privacy-page .mainmenu-area {
     background: #46AD46;
+}
+
+.privacy-page .section-padding p {
+    text-align: left;
+}
+
+/*-----------
+faq
+------------*/
+.faq-footer p{
+    text-align: center ! important;
 }
